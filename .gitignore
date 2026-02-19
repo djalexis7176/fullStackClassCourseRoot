@@ -1,0 +1,11 @@
+# Mac System Files (Ignore these)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows System Files (Just in case you switch computers)
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio Code Settings (Optional, but keeps things clean)
+.vscode/
