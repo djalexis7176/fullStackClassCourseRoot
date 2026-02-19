@@ -7,5 +7,16 @@
 Thumbs.db
 ehthumbs.db
 
-# Visual Studio Code Settings (Optional, but keeps things clean)
+# Visual Studio Code Settings (Keep your local UI settings out of GitHub)
 .vscode/
+*.code-workspace
+
+# Full Stack / Node.js Files (CRITICAL to prevent freezing)
+node_modules/
+npm-debug.log
+.env
+
+# Logs and temporary files
+*.log
+tmp/
+
