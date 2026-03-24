@@ -1,5 +1,96 @@
+
+/* teachers code taught in class*/
+
 //1. Get and validate the User's choice
 
+
+let userChoice = prompt('Do you choosse rock, paper, or sissors?').toLowerCase()
+
+
+
+
+//  Computer's choice
+
+let computerChoice = Math.floor(Math.random() *3 + 1)
+
+console.log(computerChoice)
+
+if (computerChoice === 1) {
+    computerChoice = 'rock'
+    }
+
+    else if (computerChoice === 2) {
+        computerChoice = 'paper'
+    }
+
+    else  {
+        computerChoice = 'scissors'
+    }
+
+// COMPARE USER'S CHOICE TO COMPUTERS CHOICE and figure out the winner
+
+const compare = function (user, computer) {
+
+    if (user === computer) {
+        return 'The result is a tie. Let\'s play again!'
+    }
+
+    if (user === 'rock') {
+        if (computer === 'scissors') {
+            return 'You Win!'
+        } else {
+            return 'You lose!'
+        }
+    }
+
+    
+    if (user === 'paper') {
+        if (computer === 'rock') {
+            return 'You Win!'
+        } else {
+            return 'You lose!'
+        }
+    }
+
+    
+    if (user === 'scissors') {
+        if (computer === 'rock') {
+            return 'You lose!'
+        } else {
+            return 'You win!'
+        }
+    }
+
+}
+console.log(`You chose ${userChoice}. Computer chose: ${computerChoice}`)
+
+console.log(compare(userChoice, computerChoice))
+
+
+
+
+/* another option:
+if  (computerChoice < 0.34) {
+-then do this
+}
+
+else if (computerChoice >= 0.67) {
+-then do that
+
+} else  {
+    -then do something other 
+    
+    }
+
+
+
+
+
+
+/* my submitted assignment */
+//1. Get and validate the User's choice
+
+/*
 
 function getUserChoice() {
    
@@ -99,3 +190,4 @@ function playGame() {
 
 playGame();
 
+*/

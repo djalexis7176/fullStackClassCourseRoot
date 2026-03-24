@@ -1,20 +1,58 @@
+
+
+/* teacher code in class: */
+
+//GLOBAL FUNCTION
+let result
+
+
+
 // ADD A FUNCTION CALLED CALCULATE
+function calculate (x, y, o) {
+    switch (o) {
+        case '+':
+            return x + y 
+        case '-':
+            return x - y 
+        case  '*':
+            return x * y  
+        case '/':
+            return x / y 
+        default:
+            return 0
+    }
+}
+
 
 // COLLECT FIRST NUMBER FROM USER
+const num1 = parseFloat(prompt('Enter first number'))
 
 // COLLECT SECOND NUMBER FROM USER
-
+const num2 = parseFloat(prompt('Enter second number'))
 // COLLECT OPERATION TO PERFORM (+,-,*,/) FROM USER
-
+const operator = (prompt('Enter operator (+, -, *, / '))
 // CALL THE FUNCTION AND RETURN THE RESULT WITHIN AN ALERT
+
+console.log(calculate(num1, num2, operator))
+
 //Calculator assignment for java script class mod5 assign 5 3of 3
 
 
 //  calculation logic function
 
 
+
+
+
+
+/*
+
+/*. my attempt that I submitted for class */ 
+/*
 function calculate(x, y, operation) {
     let result;
+
+
     
     // Switch statement to do the correct math
     switch (operation) {
@@ -35,6 +73,9 @@ function calculate(x, y, operation) {
     return result;
 }
 
+
+*/
+
 // Var for user's data
 
 let firstNum, secondNum, userOperation;
@@ -42,7 +83,7 @@ let firstNum, secondNum, userOperation;
 // A flag to keep track of whether the user typed a valid operation
 let isValid = false;
 
-
+/*
 do {
    
 
@@ -67,3 +108,4 @@ do {
     
 } while (isValid === false);
 
+*/

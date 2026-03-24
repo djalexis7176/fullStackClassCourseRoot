@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>In Class Learning</title>
+    <script src="learnDemoScript.js" defer></script>
+
+
+
+<!-- the following is an event
+    <button onclick="testFunction()"> Click Me </button>-->
+<!--<button id="MyBtn" >Click Me!!!</button>-->
+
+<!-- even though below is a function being callled its technically the "event Handler" that will run the function for the event that is being listened for
+
+    <script>
+
+  function testFunction() {
+            alert ("This is an Event!")
+        }
+    </script>
+     
+
+-->
+
+<!--<script>
+    
+let btn = document.getElementById('MyBtn')
+//btn.addEventListener('click', writeMessage )
+//OPTION 1:
+
+//function writeMessage() {
+// alert('This is the third way to listen and react!') 
+//}
+
+    //another way to do the above is to write a call back function:
+    //OPTION 2 : 
+    //btn.addEventListener('click', function()  {
+       // alert('This is the CALL BACK function way!')
+        // btn.addEventListener('click', () => {
+        //alert('This is the CALL BACK function way!')
+   // })
+
+    //if you have a function that obnly calls one statement then to call on the event you don't need the curly braces with the => function style so, one line of code: 
+    btn.addEventListener('click', () => alert('This is the CALL BACK function way!'))
+    //above example ONLY works with one statement. if your function had any more than one then the curly braces are required. 
+
+
+//addEventList has 3 parametr #1: the event you want to handle, #2 the FUNCTION you want to call, #3 optional bc it has a default value used 99% of the time
+
+
+//btn.onclick = function() {
+//    alert('This is the Other way!!')
+//}
+//btn.onfocus = () => {
+  //  console.log('You just tabbed into this button!')
+//}
+//btn.onblur = () => {
+//    console.log('You just tabbed OUT of this button!')
+
+//}
+
+
+</script>
+-->
+</head>
+<body>
+<div id="buttons">
+
+    <button id="btn1">Hey it's Button 1</button>
+    <button id="btn2">Button 2</button>
+    <button id="btn3">You like Button 3</button>
+    <button id="btn4">Don't forget Button 4</button>
+    <button id="btn5">How about Button 5</button>
+    
+</div>
+</body>
+</html>
